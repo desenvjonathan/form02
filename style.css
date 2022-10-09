@@ -1,0 +1,184 @@
+* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+ legend h1, h2, button {
+  font-family: 'Staatliches', sans-serif;
+ }
+
+ body {
+  background: #EFEFEF;
+ }
+
+ body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+ }
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  width: 417px;
+  margin-top: 140px;
+}
+
+header h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  line-height: auto;
+  font-weight: regular;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+header p {
+  font-size: 20px;
+  line-height: auto;
+  color: #FFFFFF;
+  weight: regular;
+}
+
+form {
+  margin-top: 58px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+ }
+
+fieldset legend {
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.input-name .input-wrapper {
+  display: flex;
+  gap: 22px;
+  width: 100%; 
+}
+
+.input-name {
+  display: flex;
+  gap: 22px;
+  width: 100%;
+}
+
+.input-name label {
+  margin-bottom: -12px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+  margin-left: 5px;
+}
+
+.input-wrapper label span:hover {
+  color: #767183;
+}
+
+.input-wrapper input {
+  appearance: none;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  height: 56px;
+  border-radius: 8px;
+  color: #767183;
+  padding: 0 24px;
+}
+
+fieldset h2 {
+  font-size: 20px;
+  color: #535971;
+  line-height: 34px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.date-time {
+  display: flex;
+  gap: 32px;
+}
+
+.date-time > div:nth-child(1) {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background: #535971;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 100px;
+}
+
+footer .button {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background: #FF5374;
+  padding: 15px 280px;
+  border: none;
+  border-radius: 20px;
+}
+
+footer .button:hover {
+  cursor: pointer;
+  background: #FC244B;
+}
+
+input:invalid {
+  border: 1px solid #FF0000;
+}
+
+
